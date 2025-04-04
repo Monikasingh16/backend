@@ -1,10 +1,13 @@
 {
   "name": "ecommerce-backend",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build":   "echo 'No build step needed for plain JavaScript backend'"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
